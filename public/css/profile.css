@@ -1,0 +1,21 @@
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile__avatar {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: auto 6px auto 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile:hover {
+    color: #1cce5c;
+}

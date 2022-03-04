@@ -1,0 +1,19 @@
+.menu {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__link {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link:hover{
+    color: #1cce5c;
+}
